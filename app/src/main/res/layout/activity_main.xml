@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:gravity="center_horizontal"
+        android:hint="@string/text"
+        android:textSize="18sp"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:layout_marginTop="200dp"/>
+
+
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/showtext"
+        android:layout_marginTop="16dp"
+        android:textColor="#E64C94"
+        android:fontFamily="sans-serif"
+        android:textSize="22sp" />
+    <Button
+        android:id="@+id/btClickme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/clickme"
+        android:textSize="17sp"
+        android:layout_marginTop="50dp"/>
+</LinearLayout>
